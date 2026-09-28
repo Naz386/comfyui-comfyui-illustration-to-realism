@@ -16,4 +16,4 @@ RUN --mount=type=secret,id=hf_token BACKOFFS="10 20 30 60 90" && for i in 1 2 3 
 # COPY input/ /comfyui/input/
 
 # user-provided inputs override the auto-generated placeholders above.
-RUN wget --progress=dot:giga -O '/comfyui/input/templates_rob_image_to_real-input.png' "https://cool-anteater-319.convex.cloud/api/storage/526a26ea-1c23-4166-99a2-3d9a95b69efa"
+RUN wget --progress=dot:giga -O '/comfyui/input/templates_rob_image_to_real-input.png' "https://cool-anteater-319.convex.cloud/api/storage/fa2b2b9e-3b96-42fc-a62b-c9a71420eabb"
